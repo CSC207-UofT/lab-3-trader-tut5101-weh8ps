@@ -20,4 +20,8 @@ public class Chicken implements Tradable, Domesticatable {
         String bok = bokBokBok.toString();
         return bok;
     }
+
+    public int getNumberOfBoks() {
+        return
+    }
 }

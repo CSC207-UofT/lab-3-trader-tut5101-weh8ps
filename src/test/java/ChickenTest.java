@@ -17,7 +17,7 @@ public class ChickenTest {
     }
 
     @Test(timeout = 50)
-    public void TestGetNumberOfBoks(4) {
+    public void TestGetNumberOfBoks() {
         assertEquals(4, ch.getNumberOfBoks());
     }
 

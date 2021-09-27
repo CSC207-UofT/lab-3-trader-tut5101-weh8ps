@@ -3,6 +3,7 @@ public class Palanquin implements Tradable, Drivable{
     private int maxspeed;
     public Palanquin() {
         this.price = 100;
+        this.maxspeed = 5;
     }
 
     @Override

@@ -97,7 +97,7 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Chicken(),
-                new Dolphin()
+                new Dolphin(),
                 // DONE: Add Tradable objects here!
                 new Palanquin()
         );

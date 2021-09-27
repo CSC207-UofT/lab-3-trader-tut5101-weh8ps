@@ -99,7 +99,7 @@ public class Trader {
                 new Horse(),
                 // TODO: Add Tradable objects here!
                 new Car(),
-                new Chicken(),
+                new Chicken(6),
                 new Dolphin(),
                 // DONE: Add Tradable objects here!
                 new Palanquin()

@@ -95,8 +95,7 @@ public class Trader {
          */
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
-                new Horse(),
-                new Chicken(),
+                new Chicken(6),
                 new Dolphin(),
                 // DONE: Add Tradable objects here!
                 new Palanquin()

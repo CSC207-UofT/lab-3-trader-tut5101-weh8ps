@@ -1,4 +1,10 @@
 public class Palanquin implements Tradable, Drivable{
+    /*
+    Palanquin class implements Tradable and Drivable.
+    Has the following private attributes:
+    price - the price of the Palanquin objects
+    maxspeed - the maximum speed of the Palanquin object
+     */
     private int price;
     private int maxspeed;
     public Palanquin() {

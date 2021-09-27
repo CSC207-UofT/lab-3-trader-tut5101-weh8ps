@@ -13,12 +13,12 @@ public class DolphinTest {
 
     @Test(timeout = 50)
     public void TestSound() {
-        assertEquals("eeeeeeeee tehehehehe eep", h.sound());
+        assertEquals("eeeeeeeee tehehehehe eep", d.sound());
     }
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(420, h.getPrice());
+        assertEquals(420, d.getPrice());
     }
 
 }

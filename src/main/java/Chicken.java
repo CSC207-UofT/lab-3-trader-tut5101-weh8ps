@@ -22,6 +22,6 @@ public class Chicken implements Tradable, Domesticatable {
     }
 
     public int getNumberOfBoks() {
-        return
+        return this.numberOfBoks;
     }
 }

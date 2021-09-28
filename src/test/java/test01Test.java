@@ -1,28 +1,36 @@
-import org.junit.Test;
+import org.junit.*;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
+
 
 public class test01Test {
-    test01 unit01;
+    test01 a;
+
+    @Before
+    public void setUp() throws Exception {
+        a = new test01();
+    }
+
     @Test(timeout = 50)
     public void TestGetMaxSpeed() {
-        assertEquals(10, unit01.getMaxSpeed());
+        assertEquals(10, a.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
-        unit01.upgradeSpeed();
-        assertEquals(11, unit01.getMaxSpeed());
+        a.upgradeSpeed();
+        assertEquals(11, a.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
-        unit01.downgradeSpeed();
-        assertEquals(9, unit01.getMaxSpeed());
+        a.downgradeSpeed();
+        assertEquals(9, a.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(9, unit01.getPrice());
+        assertEquals(9, a.getPrice());
     }
+
 }
